@@ -1,23 +1,53 @@
-# Compiled class file
-*.class
+#################
+## Eclipse
+#################
 
-# Log file
-*.log
+*.pydevproject
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.settings
+.classpath
+.project
+.classpath
+.settings
+.project
+.apt_generated/**/*
+.idea
+CteMail.iml
+target/**/*
 
-# BlueJ files
-*.ctxt
+############
+## Windows
+############
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Windows image file caches
+Thumbs.db
 
-# Package Files #
-*.jar
-*.war
-*.nar
+# Folder config file
+Desktop.ini
+
+############
+## SVN
+############
+.svn/
+
+############
+## Java ##
+############
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.log
+*.class
+logctemail/
+build/
+*.html
+*.swf
+*.bmp
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/target/
